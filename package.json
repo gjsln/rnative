@@ -1,0 +1,26 @@
+{
+  "name": "rncourse",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "ios": "react-native run-ios",
+    "android": "react-native run-android"
+  },
+  "dependencies": {
+    "react": "16.8.3",
+    "react-native": "0.59.10"
+  },
+  "devDependencies": {
+    "@babel/core": "7.15.8",
+    "@babel/runtime": "7.15.4",
+    "babel-jest": "27.2.5",
+    "jest": "27.2.5",
+    "metro-react-native-babel-preset": "0.66.2",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
